@@ -1,0 +1,97 @@
+[
+  {
+    "id": "sensor-001",
+    "name": "Temperature Sensor 1",
+    "type": "temperature",
+    "status": "active",
+    "location": "Cold Room A",
+    "readings": [
+      {
+        "timestamp": "2025-05-17T06:00:00Z",
+        "value": 4.5,
+        "unit": "°C"
+      }
+    ],
+    "lastReading": {
+      "timestamp": "2025-05-17T06:00:00Z",
+      "value": 4.5,
+      "unit": "°C"
+    }
+  },
+  {
+    "id": "sensor-002",
+    "name": "Humidity Sensor 1",
+    "type": "humidity",
+    "status": "active",
+    "location": "Cold Room A",
+    "readings": [
+      {
+        "timestamp": "2025-05-17T06:00:00Z",
+        "value": 65,
+        "unit": "%"
+      }
+    ],
+    "lastReading": {
+      "timestamp": "2025-05-17T06:00:00Z",
+      "value": 65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "sensor-003",
+    "name": "Power Sensor 1",
+    "type": "power",
+    "status": "active",
+    "location": "Electrical Room",
+    "readings": [
+      {
+        "timestamp": "2025-05-17T06:00:00Z",
+        "value": 2400,
+        "unit": "W"
+      }
+    ],
+    "lastReading": {
+      "timestamp": "2025-05-17T06:00:00Z",
+      "value": 2400,
+      "unit": "W"
+    }
+  },
+  {
+    "id": "sensor-004",
+    "name": "Temperature Sensor 2",
+    "type": "temperature",
+    "status": "maintenance",
+    "location": "Cold Room B",
+    "readings": [
+      {
+        "timestamp": "2025-05-17T05:00:00Z",
+        "value": 5.2,
+        "unit": "°C"
+      }
+    ],
+    "lastReading": {
+      "timestamp": "2025-05-17T05:00:00Z",
+      "value": 5.2,
+      "unit": "°C"
+    }
+  },
+  {
+    "id": "sensor-005",
+    "name": "Motion Sensor 1",
+    "type": "motion",
+    "status": "active",
+    "location": "Entrance",
+    "readings": [
+      {
+        "timestamp": "2025-05-17T06:00:00Z",
+        "value": 0,
+        "unit": "boolean"
+      }
+    ],
+    "lastReading": {
+      "timestamp": "2025-05-17T06:00:00Z",
+      "value": 0,
+      "unit": "boolean"
+    }
+  }
+] 
